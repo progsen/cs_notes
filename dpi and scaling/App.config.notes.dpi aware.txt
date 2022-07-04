@@ -1,0 +1,10 @@
+Graphics and matrices can be influenced by dpi settings and scaling in windows please add
+
+
+	<System.Windows.Forms.ApplicationConfigurationSection>
+		<add key="DpiAwareness" value="PerMonitorV2" />
+	</System.Windows.Forms.ApplicationConfigurationSection>
+	
+	to the app.config
+	
+	see example file
